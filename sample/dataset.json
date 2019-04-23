@@ -1,0 +1,662 @@
+{
+  "name": "sample",
+  "shortLabel": "CellBrowser 100-genes demo",
+  "radius": 5,
+  "alpha": 0.3,
+  "priority": 10,
+  "tags": [
+    "smartseq2"
+  ],
+  "clusterField": "WGCNAcluster",
+  "hubUrl": "http://cells.ucsc.edu/cortex-dev/hub/hub.txt",
+  "showLabels": true,
+  "ucscDb": "hg38",
+  "unit": "TPM",
+  "descMd5s": {
+    "downloads": "da775b0b21",
+    "methods": "18c7a8b746",
+    "summary": "180a2f3377"
+  },
+  "fileVersions": {
+    "inMeta": {
+      "size": 181579,
+      "mtime": "2018-07-24 12:08:46",
+      "fname": "/Users/yadavp/mini/meta.tsv",
+      "md5": "b4cb4026ee"
+    },
+    "outMeta": {
+      "size": 177317,
+      "mtime": "2019-04-23 19:29:24",
+      "fname": "/Users/yadavp/public_html/cells/sample/meta.tsv",
+      "md5": "eac72360a0"
+    },
+    "outMatrix": {
+      "mtime": "2019-04-22 21:53:30",
+      "md5": "3fa2f17fa0",
+      "fname": "/Users/yadavp/public_html/cells/sample/exprMatrix.tsv.gz",
+      "size": 221820
+    },
+    "inMatrix": {
+      "mtime": "2018-07-24 12:08:45",
+      "md5": "1fa8171953",
+      "fname": "/Users/yadavp/mini/exprMatrix.tsv.gz",
+      "size": 261498
+    },
+    "conf": {
+      "size": 2898,
+      "mtime": "2018-10-13 14:28:24",
+      "fname": "/Users/yadavp/mini/cellbrowser.conf",
+      "md5": "6bc2f72b73"
+    }
+  },
+  "sampleCount": 4261,
+  "matrixWasFiltered": true,
+  "metaFields": [
+    {
+      "name": "Cell",
+      "label": "Cell",
+      "type": "uniqueString",
+      "maxSize": 21,
+      "diffValCount": 4261,
+      "md5": "52faf5ac00"
+    },
+    {
+      "name": "WGCNAcluster",
+      "label": "WGCNAcluster",
+      "type": "enum",
+      "valCounts": [
+        [
+          "nEN-early2",
+          455
+        ],
+        [
+          "nEN-late",
+          321
+        ],
+        [
+          "IN-CTX-MGE1",
+          192
+        ],
+        [
+          "EN-V1-2",
+          182
+        ],
+        [
+          "EN-V1-1",
+          166
+        ],
+        [
+          "IN-CTX-CGE2",
+          153
+        ],
+        [
+          "IN-CTX-CGE1",
+          148
+        ],
+        [
+          "RG-div1",
+          133
+        ],
+        [
+          "",
+          132
+        ],
+        [
+          "RG-div2",
+          124
+        ],
+        [
+          "tRG",
+          100
+        ],
+        [
+          "vRG",
+          97
+        ],
+        [
+          "EN-PFC2",
+          96
+        ],
+        [
+          "nIN2",
+          96
+        ],
+        [
+          "IN-CTX-MGE2",
+          95
+        ],
+        [
+          "EN-PFC1",
+          93
+        ],
+        [
+          "IN-STR",
+          83
+        ],
+        [
+          "U1",
+          80
+        ],
+        [
+          "Glyc",
+          77
+        ],
+        [
+          "Microglia",
+          77
+        ],
+        [
+          "IPC-nEN2",
+          76
+        ],
+        [
+          "EN-V1-3",
+          76
+        ],
+        [
+          "nIN1",
+          72
+        ],
+        [
+          "MGE-RG2",
+          70
+        ],
+        [
+          "IPC-nEN1",
+          68
+        ],
+        [
+          "oRG",
+          65
+        ],
+        [
+          "nIN5",
+          64
+        ],
+        [
+          "MGE-IPC2",
+          62
+        ],
+        [
+          "MGE-div",
+          57
+        ],
+        [
+          "U4",
+          56
+        ],
+        [
+          "nIN3",
+          54
+        ],
+        [
+          "RG-early",
+          53
+        ],
+        [
+          "EN-PFC3",
+          53
+        ],
+        [
+          "nEN-early1",
+          52
+        ],
+        [
+          "IPC-div2",
+          51
+        ],
+        [
+          "Astrocyte",
+          46
+        ],
+        [
+          "MGE-RG1",
+          44
+        ],
+        [
+          "MGE-IPC1",
+          44
+        ],
+        [
+          "MGE-IPC3",
+          40
+        ],
+        [
+          "IPC-nEN3",
+          39
+        ],
+        [
+          "OPC",
+          37
+        ],
+        [
+          "IPC-div1",
+          36
+        ],
+        [
+          "Endothelial",
+          30
+        ],
+        [
+          "U3",
+          28
+        ],
+        [
+          "nIN4",
+          28
+        ],
+        [
+          "U2",
+          27
+        ],
+        [
+          "Mural",
+          19
+        ],
+        [
+          "Choroid",
+          14
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 48,
+      "md5": "c6ef259fe1"
+    },
+    {
+      "name": "Name",
+      "label": "Name",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Sample5",
+          211
+        ],
+        [
+          "Sample14",
+          208
+        ],
+        [
+          "Sample12",
+          199
+        ],
+        [
+          "Sample23",
+          194
+        ],
+        [
+          "Sample29",
+          193
+        ],
+        [
+          "Sample13",
+          190
+        ],
+        [
+          "Sample19",
+          182
+        ],
+        [
+          "Sample9",
+          174
+        ],
+        [
+          "Sample15",
+          169
+        ],
+        [
+          "Sample6",
+          169
+        ],
+        [
+          "Sample32",
+          165
+        ],
+        [
+          "Sample30",
+          131
+        ],
+        [
+          "Sample3",
+          123
+        ],
+        [
+          "Sample20",
+          122
+        ],
+        [
+          "Sample37",
+          116
+        ],
+        [
+          "Sample33",
+          108
+        ],
+        [
+          "Sample47",
+          104
+        ],
+        [
+          "Sample41",
+          103
+        ],
+        [
+          "Sample48",
+          96
+        ],
+        [
+          "Sample43",
+          85
+        ],
+        [
+          "Sample42",
+          81
+        ],
+        [
+          "Sample34",
+          69
+        ],
+        [
+          "Sample39",
+          69
+        ],
+        [
+          "Sample10",
+          68
+        ],
+        [
+          "Sample4",
+          68
+        ],
+        [
+          "Sample28",
+          61
+        ],
+        [
+          "Sample31",
+          59
+        ],
+        [
+          "Sample38",
+          58
+        ],
+        [
+          "Sample11",
+          57
+        ],
+        [
+          "Sample44",
+          55
+        ],
+        [
+          "Sample45",
+          52
+        ],
+        [
+          "Sample21",
+          49
+        ],
+        [
+          "Sample18",
+          47
+        ],
+        [
+          "Sample25",
+          47
+        ],
+        [
+          "Sample17",
+          44
+        ],
+        [
+          "Sample40",
+          44
+        ],
+        [
+          "Sample7",
+          44
+        ],
+        [
+          "Sample35",
+          39
+        ],
+        [
+          "Sample26",
+          37
+        ],
+        [
+          "Sample27",
+          36
+        ],
+        [
+          "Sample24",
+          26
+        ],
+        [
+          "Sample22",
+          24
+        ],
+        [
+          "Sample46",
+          22
+        ],
+        [
+          "Sample2",
+          21
+        ],
+        [
+          "Sample8",
+          21
+        ],
+        [
+          "Sample16",
+          9
+        ],
+        [
+          "Sample1",
+          8
+        ],
+        [
+          "Sample36",
+          4
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 48,
+      "md5": "2f4dea5335"
+    },
+    {
+      "name": "Age",
+      "label": "Age",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 29,
+      "md5": "e1c308a61f"
+    },
+    {
+      "name": "RegionName",
+      "label": "RegionName",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Cortex",
+          3191
+        ],
+        [
+          "GE",
+          841
+        ],
+        [
+          "Presumptive_cortex",
+          200
+        ],
+        [
+          "Choroid",
+          29
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 4,
+      "md5": "5daadd8cf9"
+    },
+    {
+      "name": "Laminae",
+      "label": "Laminae",
+      "type": "enum",
+      "valCounts": [
+        [
+          "All",
+          1651
+        ],
+        [
+          "0",
+          987
+        ],
+        [
+          "CP",
+          618
+        ],
+        [
+          "VZ",
+          415
+        ],
+        [
+          "SVZ",
+          315
+        ],
+        [
+          "GZ",
+          186
+        ],
+        [
+          "ALL",
+          89
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 7,
+      "md5": "7cd089e97a"
+    },
+    {
+      "name": "Area",
+      "label": "Area",
+      "type": "enum",
+      "valCounts": [
+        [
+          "PFC",
+          1125
+        ],
+        [
+          "0",
+          1107
+        ],
+        [
+          "V1",
+          1082
+        ],
+        [
+          "MGE",
+          733
+        ],
+        [
+          "M1",
+          123
+        ],
+        [
+          "LGE",
+          69
+        ],
+        [
+          "Choroid Plexus",
+          22
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 7,
+      "md5": "40d165ca14"
+    }
+  ],
+  "matrixArrType": "Float32",
+  "labelField": "WGCNAcluster",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "t-SNE on WGCNA",
+      "md5": "87aa2d5b08",
+      "minX": -51.762,
+      "maxX": 41.868,
+      "minY": 0.0,
+      "maxY": 80.71,
+      "type": "Float32",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "markers": [
+    {
+      "shortLabel": "Cluster-specific markers",
+      "name": "markers_0"
+    }
+  ],
+  "acronyms": {
+    "MGE-RG2": "Medial Ganglionic Eminence - Radial Glia - 2",
+    "MGE-RG1": "Medial Ganglionic Eminence - Radial Glia - 1",
+    "RG-early": "Radial Glia - early",
+    "Glyc": "Glycolysis",
+    "tRG": "Trucated Radial Glia",
+    "oRG": "Outer Radial Glia",
+    "IPC-nEN2": "Intermediate Progenitor - Newborn Excitatory Neuron -2",
+    "IPC-nEN3": "Intermediate Progenitor - Newborn Excitatory Neuron -3",
+    "IPC-nEN1": "Intermediate Progenitor - Newborn Excitatory Neuron -1",
+    "MGE-div": "Medial Ganglionic Eminence - Dividing",
+    "EN-PFC2": "Excitatory Neuron-Prefrontal Cortex-2",
+    "EN-PFC3": "Excitatory Neuron-Prefrontal Cortex-3",
+    "MGE-IPC2": "Medial Ganglionic Eminence - Intermediate Progenitor -2",
+    "EN-PFC1": "Excitatory Neuron-Prefrontal Cortex-1",
+    "nEN-early1": "Newborn Excitatory Neuron - early -1",
+    "Choroid": "Choroid Plexus",
+    "nEN-early2": "Newborn Excitatory Neuron - early -2",
+    "EN-V1-3": "Excitatory Neuron - Visual Cortex - 3",
+    "EN-V1-1": "Excitatory Neuron - Visual Cortex - 1",
+    "IN-CTX-CGE1": "Interneuron - Cortex - Caudal Ganglionic Eminence-1",
+    "IN-CTX-CGE2": "Interneuron - Cortex - Caudal Ganglionic Eminence-2",
+    "EN-V1-2": "Excitatory Neuron - Visual Cortex - 2",
+    "IPC-div1": "Intermediate Progenitor - Dividing -1 ",
+    "IPC-div2": "Intermediate Progenitor - Dividing - 2",
+    "Unk4": "Unknown 4",
+    "Unk1": "Unknown 1",
+    "Unk2": "Unknown 2",
+    "Unk3": "Unknown 3",
+    "nEN-late": "Newborn Excitatory Neuron - late",
+    "nIN3": "Newborn Interneuron -3",
+    "vRG": "Ventral Radial Glia",
+    "Astrocyte": "Astrocyte",
+    "IN-CTX-MGE2": "Interneuron - Cortex - Medial Ganglionic Eminence-2",
+    "IN-CTX-MGE1": "Interneuron - Cortex - Medial Ganglionic Eminence-1",
+    "MGE-IPC1": "Medial Ganglionic Eminence - Intermediate Progenitor -1 ",
+    "nIN1": "Newborn Interneuron -1 ",
+    "Endothelial": "Endothelial",
+    "nIN2": "Newborn Interneuron -2",
+    "nIN5": "Newborn Interneuron -5",
+    "nIN4": "Newborn Interneuron -4",
+    "MGE-IPC3": "Medial Ganglionic Eminence - Intermediate Progenitor -3",
+    "Mural": "Mural",
+    "Microglia": "Microglia",
+    "IN-STR": "Interneuron - Striatum",
+    "OPC": "Oligodendrocyte Precursor Cell",
+    "RG-div2": "Radial Glia - dividing - 2",
+    "RG-div1": "Radial Glia - dividing - 1"
+  },
+  "quickGenes": [
+    [
+      "ARID3C"
+    ],
+    [
+      "SUMO1"
+    ],
+    [
+      "MIER1"
+    ],
+    [
+      "UTY"
+    ]
+  ]
+}
